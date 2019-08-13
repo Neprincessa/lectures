@@ -1,0 +1,8 @@
+010 editor
+файлик с ноликами и единичками
+hex
+edit
+copy all
+paste as binary 
+save и сохраняет как архив
+

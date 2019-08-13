@@ -1,0 +1,11 @@
+Работа с изображениями. Расширение полей.
+010 editor
+Templates. Add for png in templ repository
+templ image png
+
+В поле IHDR меняем ширину, глубину
+Затем: 
+pngcheck '/home/anastasia/Загрузки/task_boards.png' - проверка контрольной суммы и потом заменяем вычисленную  редакторе
+*есть еще pngfix
+
+в контрольную сумму не забывать добавить h

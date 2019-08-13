@@ -1,0 +1,14 @@
+1. открыли посмотрели  трафик увидели что http
+2. http follow, там нашли the next step to flag
+3. интересует что метод post. Отсеиваем все пакеты с этим методом
+	http.request.method == "POST"
+4. смотрим, что получили
+5. follow http получили приватный 
+6. nano - private
+7. переводим во внутренний формат джона
+8. gpg2john privateKey.txt > answer.txt - перенаправление потока
+	подготовили нужный формат для джсона и теперь скармливаем ему
+9. john --wordlist=rockyou.txt weirdo.txt
+	получаем пароль spongebob
+john --show weirdo.txt
+	
